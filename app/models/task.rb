@@ -1,5 +1,6 @@
 class Task < ApplicationRecord
-
+def an
+end
 
 
 

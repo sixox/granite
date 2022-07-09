@@ -6,5 +6,5 @@ class CreatTasks < ActiveRecord::Migration[6.1]
     end
   end
   def down
-    drop_table :tasks
+    drop_table :task
 end

@@ -1,8 +1,10 @@
 class CreatTasks < ActiveRecord::Migration[6.1]
-  def change
+  def up
     create_table :task do|t|
-      t.text :title
+      t.text :body
       t.timestamps
     end
   end
+  def down
+    drop_table :tasks
 end
